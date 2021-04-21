@@ -94,9 +94,9 @@ In this project Python is used to orchestrate the initialization and termination
 
 ##### Method A: Jupyter Notebook
 1. Open data_warehouse_with_aws.ipynb in a Jupyter Notebook session.
-2. Go to ``Kernel > Restart & Run All`` or click on the ⏩️ button.
+2. Go to ``Kernel > Restart Kernal and Run All Cells...`` or click on the ⏩️ button.
 ![r&ra](https://user-images.githubusercontent.com/1448859/34637647-f452741c-f2ba-11e7-9ef9-98bd14c18402.png)
-3. Enter your AWS access key ID when prompted for KEY.
+3. At [2], enter your AWS access key ID when prompted for KEY.
 4. Enter your AWS Secret access key when prompted for SECRET.
 5. Press \<Enter> key to leave blank when prompted for HOST. Your Redshift endpoint address will later be retrieved by the Python script.
 5. Press \<Enter> key to leave blank when prompted for ARN. Your IAM role ARN for S3 read-only will later be retrieved by the Python script.
